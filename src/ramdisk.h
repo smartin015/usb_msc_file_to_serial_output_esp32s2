@@ -26,7 +26,7 @@
 #define RAMDISK_H_
 
 #define README_CONTENTS                                                        \
-  "This USB device converts any file sent to it into a serial stream. This is sent to the machine over serial at 9600 baud. Files larger than 56k cannot be uploaded."
+  "This USB device converts any file sent to it into a serial stream. This is sent to the machine over serial at 9600 baud. Files larger than 56k cannot be uploaded. See https://github.com/smartin015/usb_msc_file_to_serial_output_esp32s2 for source code."
 
 #define MAX_QUEUESZ DISK_BLOCK_NUM
 uint8_t echo_queue[MAX_QUEUESZ]; 
